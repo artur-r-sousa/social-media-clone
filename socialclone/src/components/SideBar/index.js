@@ -77,6 +77,7 @@ export default function SideBar() {
             </ul>
 
             <p>
+                <hr />
                 <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2"></img>
                 user name
                 <p>@user</p>

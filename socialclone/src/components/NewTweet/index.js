@@ -13,7 +13,7 @@ function NewTweet(){
                     <InputAdornment
                         position="start"
                     >
-                        <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2"></img>
+                        <img src="https://github.com/mdo.png" alt="" width="32" height="32" className="rounded-circle me-2"></img>
                     </InputAdornment>
                 }
                 endAdornment={
