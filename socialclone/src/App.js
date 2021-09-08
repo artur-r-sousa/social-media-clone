@@ -1,13 +1,13 @@
+import MainFeed from "./components/MainFeed";
 import SideBar from "./components/SideBar";
 
 function App() {
   return (
     <div className="container">
-      <div>
+      <div style={{display: 'flex', flexDirection: 'row'}}>
         <SideBar />
-        
-      </div>
-      
+        <MainFeed />
+      </div>     
     </div>
   );
 }
