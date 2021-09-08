@@ -1,7 +1,13 @@
+import SideBar from "./components/SideBar";
+
 function App() {
   return (
     <div className="container">
-      <h1>teste</h1>
+      <div>
+        <SideBar />
+        
+      </div>
+      
     </div>
   );
 }
