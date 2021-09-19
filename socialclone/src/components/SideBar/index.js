@@ -1,6 +1,8 @@
 import twitterLogo from '../../assets/img/twitter.svg';
+import MainUserTag from '../MainUserTag';
 
-export default function SideBar() {
+export default function SideBar({ user }) {
+
     return (
         <div class="d-flex flex-column flex-shrink-0 p-3 bg-light" style={{ width: "280px", height: "100vh"}}>
             <img alt='twitter-logo' src={twitterLogo} width="60" height="30" />
@@ -78,9 +80,9 @@ export default function SideBar() {
 
             <p>
                 <hr />
-                <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2"></img>
-                user name
-                <p>@user</p>
+                <MainUserTag 
+                    visibility="hidden" 
+                    user={user}/>
             </p>
         </div>
     );
