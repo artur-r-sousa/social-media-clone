@@ -1,0 +1,5 @@
+export default {
+  SET_USER: "SET_USER",
+  IS_LOADING: "IS_LOADING",
+  LOAD_USER_SAGA: "LOAD_USER_SAGA"
+}

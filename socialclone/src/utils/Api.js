@@ -4,6 +4,8 @@ const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjEsImlhdCI6MTYzMTk4
 
 export const instance = axios.create({
     baseUrl: 'http://localhost:3333/tweets',
-    timeout: 1000,
-    headers: {'Authorization': `Bearer ${token}`}
+    headers: {
+        'Authorization': `Bearer ${token}`
+    }
 })
+

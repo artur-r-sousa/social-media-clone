@@ -3,6 +3,7 @@ import MainUserTag from "../MainUserTag";
 
 function Tweet({data}) {
 
+
     const contentValue = useState(data.content);
 
     return (
